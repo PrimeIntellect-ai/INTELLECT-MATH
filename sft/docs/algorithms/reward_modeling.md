@@ -243,7 +243,7 @@ Finally, we also include samples
 * `train/rm/lr`: the training learning rate
 
 
-We also have `eval/rm/accuracy`, `eval/rm/loss`, `eval/rm/chosen_rewards`, `eval/rm/rejected_rewards`, `eval/rm/reward_margin` for the evalation dataset.
+We also have `eval/rm/accuracy`, `eval/rm/loss`, `eval/rm/chosen_rewards`, `eval/rm/rejected_rewards`, `eval/rm/reward_margin` for the evaluation dataset.
 
 
 

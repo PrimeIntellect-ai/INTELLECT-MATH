@@ -207,7 +207,7 @@ def construct_prompt(example, data_name, args):
         full_prompt = context
     else:
         if args.prompt_type == "qwen25-math-cot":
-            # Hotfix to supportting put all demos into a single turn
+            # Hotfix to supporting put all demos into a single turn
             full_prompt = demo_prompt + splitter + example["question"]
             full_prompt = input_template.format(input=full_prompt)
         else:

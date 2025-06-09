@@ -750,7 +750,7 @@ class DatasetInfo:
 
 
 def get_beaker_dataset_ids(experiment_id: str, sort=False) -> Optional[List[str]]:
-    """if sort is True, the non-empty latest dataset will be availble at the end of the list"""
+    """if sort is True, the non-empty latest dataset will be available at the end of the list"""
     experiment = get_beaker_experiment_info(experiment_id)
     if not experiment:
         return None
@@ -777,7 +777,7 @@ def get_beaker_dataset_ids(experiment_id: str, sort=False) -> Optional[List[str]
             ]
         )
     if sort:
-        # sort based on empty, then commited
+        # sort based on empty, then committed
         dataset_infos.sort(key=lambda x: (x.non_empty, parser.parse(x.committed)))
     pprint(dataset_infos)
     return [dataset.id for dataset in dataset_infos]

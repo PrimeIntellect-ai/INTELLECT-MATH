@@ -17,7 +17,7 @@ dataset_mixer:
     # Here, only the highest rated paths are extracted.
     # Total: 7708
     # Pro: created and reviewed by human volunteers, has multi-turn chat.
-    # Con: small, still has some noise, the writting quality may not be as good/careful as paid workers, style consistency.
+    # Con: small, still has some noise, the writing quality may not be as good/careful as paid workers, style consistency.
     # TODO: need to check if this version corresponds to the highest rated paths.
     allenai/openassistant-guanaco-reformatted: 7708
     # ------------------------------------------------------
@@ -131,7 +131,7 @@ dataset_mixer:
     # Table-GPT dataset, converted & synthesized, for table understanding and operations
     # Total: 13222
     # Pro: a special dataset that contains 14 table related tasks for enhancing table capabilities
-    # Con: task types are limited. The tables may not be big enough. Reponse styles may be inconsistent.
+    # Con: task types are limited. The tables may not be big enough. Response styles may be inconsistent.
     # TODO: need to ablate. 
     ai2-adapt-dev/Table-GPT-All-train: 3000
     # ------------------------------------------------------
@@ -161,7 +161,7 @@ dataset_mixer:
     # Total: 1000000
     # Pro: real human interaction with model, with reasonable challenges.
     # Con: may not reflect the real challenges in actual use of AI models. The interactions include those with weak models.
-    # TODO: need to ablate. need to regenerate (the last step)!! the intermediate low-quality responese need to downweight.
+    # TODO: need to ablate. need to regenerate (the last step)!! the intermediate low-quality response need to downweight.
     # lmsys/lmsys-chat-1m: 1000000
 max_seq_length: 4096 # Note, reduced from 8192 to fit on one GPU with DeepSpeed Stage3
 preprocessing_num_workers: 128

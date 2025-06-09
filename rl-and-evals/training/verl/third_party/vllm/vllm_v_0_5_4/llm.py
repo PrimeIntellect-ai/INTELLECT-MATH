@@ -218,7 +218,7 @@ class LLM(LLM):
             outputs = request_output.outputs
             for output in outputs:  # List[CompletionOutput], usually len == 1
                 output_token_ids.append(torch.tensor(output.token_ids))
-                # TODO(shengguangming): can be optimzied by rewrite the Sampler._get_logprobs() logits
+                # TODO(shengguangming): can be optimized by rewrite the Sampler._get_logprobs() logits
                 logprobs_dicts = output.logprobs
                 if logprobs_dicts is not None:
                     logprob = []

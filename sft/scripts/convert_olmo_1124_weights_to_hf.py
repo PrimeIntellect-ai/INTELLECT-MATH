@@ -32,7 +32,7 @@ from transformers.models.gpt2.tokenization_gpt2_fast import GPT2TokenizerFast
 Sample usage:
 
 ```
-# make sure to donwload an olmo checkpoint with a `config.yaml` and `model.pt`
+# make sure to download an olmo checkpoint with a `config.yaml` and `model.pt`
 
 exp_name=peteish7-anneal-from-928646-50B-nowup-moremath-dclm07-fw2
 python scripts/convert_olmo_1124_weights_to_hf.py \

@@ -70,7 +70,7 @@ def main():
     d1['tasks'][0]['image']['beaker'] = args.image
     d1['tasks'][0]['context']['cluster'] = args.cluster
     d1['tasks'][0]['context']['priority'] = args.priority
-    d1['tasks'][0]['context']['preemptible'] = args.preemptible # True requried for Jupiter/Pluto
+    d1['tasks'][0]['context']['preemptible'] = args.preemptible # True required for Jupiter/Pluto
     d1['tasks'][0]['resources']['gpuCount'] = args.num_gpus
 
     # add cluster-specific env vars

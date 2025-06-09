@@ -150,7 +150,7 @@ python scripts/collect_eval_results.py \
 python scripts/weights/weight_diff.py recover --path_raw ${hf_llama_path} --path_tuned ${output_path} --path_diff ${diff_location}
 ```
 3. `weights/convert_llama_weights_to_hf.sh`: Use `transformers` to convert weights.
-4. `data/*`: scripts for inpecting statistics of and rebuilding Tulu 1/2/N datasets from scratch (where possible).
+4. `data/*`: scripts for inspecting statistics of and rebuilding Tulu 1/2/N datasets from scratch (where possible).
 
 ## Notes on data mixing
 Most of the scripts with `_config` take in configs that look like the following (just the data part):

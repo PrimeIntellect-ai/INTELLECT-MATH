@@ -41,7 +41,7 @@ from vllm import SamplingParams
 
 # TODO
 # 1. support pp in vllm
-# 2. passing tokenizer is not necessary? no encoding/decoding is happending here
+# 2. passing tokenizer is not necessary? no encoding/decoding is happening here
 # 3. simplify init logics
 
 
@@ -63,7 +63,7 @@ class vLLMRollout(BaseRollout):
             module: module here follows huggingface APIs
             config: DictConfig
             tokenizer: the task/model tokenizer
-            model_hf_config: the huggingface config to initiallize the generating model in vllm
+            model_hf_config: the huggingface config to initialize the generating model in vllm
             **kwargs: train_tp, for Megatron Backend to initialize hybrid engine (zero redundancy) process group
         """
         super().__init__()

@@ -70,7 +70,7 @@ def parse_args():
     parser.add_argument(
         "--load_in_float16",
         action="store_true",
-        help="By default, huggingface model will be loaded in the torch.dtype specificed in its model_config file."
+        help="By default, huggingface model will be loaded in the torch.dtype specified in its model_config file."
              "If specified, the model dtype will be converted to float16 using `model.half()`.")
     parser.add_argument(
         "--gptq",

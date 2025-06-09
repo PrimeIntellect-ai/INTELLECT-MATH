@@ -43,7 +43,7 @@ You can reproduce INTELLECT-MATH step by step using the following code:
 
 ### 1) Generate the SFT Dataset
 
-To generate our SFT dataset, we used QwQ-32B to sample two responses for every question from the NuminaMath dataset. To achieve fast throughput and large batch sizes, we use the [sglang](https://github.com/sgl-project/sglang) inference engine. Keeping only the correct responses, we are left with [PrimeIntellect/INTELLECT-MATH-7B-SFT-Data](https://huggingface.co/datasets/PrimeIntellect/INTELLECT-MATH-7B-SFT-Data), a dataset containing 733k questions and responses.
+To generate our SFT dataset, we used QwQ-32B to sample two responses for every question from the NuminaMath dataset. To achieve fast throughput and large batch sizes, we use the [sglang](https://github.com/sgl-project/sglang) inference engine. Keeping only the correct responses, we are left with [PrimeIntellect/INTELLECT-MATH-SFT-Data](https://huggingface.co/datasets/PrimeIntellect/INTELLECT-MATH-SFT-Data), a dataset containing 733k questions and responses.
 
 You can use the code in `synthetic-data` to generate an SFT dataset:
 ```

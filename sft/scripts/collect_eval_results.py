@@ -166,7 +166,7 @@ def main():
 
         metrics = b.job.metrics(job.id)
         if metrics is None:
-            # Case where no metrics are availble.
+            # Case where no metrics are available.
             continue
 
         metrics_all[eval_task] = metrics
