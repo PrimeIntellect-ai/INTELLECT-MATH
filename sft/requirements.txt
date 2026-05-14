@@ -176,7 +176,7 @@ triton==3.1.0
 typing-extensions==4.12.2
 tzdata==2024.2
 uc-micro-py==1.0.3
-urllib3==2.3.0
+urllib3==2.7.0
 uvicorn==0.34.0
 uvloop==0.21.0
 virtualenv==20.28.1
