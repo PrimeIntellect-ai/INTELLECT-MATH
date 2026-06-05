@@ -111,7 +111,7 @@ psutil==6.0.0
 ptyprocess==0.7.0
 py-cpuinfo==9.0.0
 pyairports==2.1.1
-pyarrow==15.0.2
+pyarrow==23.0.1
 pyarrow-hotfix==0.6
 pyasn1==0.6.0
 pyasn1_modules==0.4.0
