@@ -111,7 +111,7 @@ ptyprocess==0.7.0
 pure_eval==0.2.3
 py-cpuinfo==9.0.0
 pyairports==2.1.1
-pyarrow==18.0.0
+pyarrow==23.0.1
 pycountry==24.6.1
 pydantic==2.9.2
 pydantic_core==2.23.4
