@@ -19,7 +19,7 @@ cloudpickle==3.0.0
 cmake==3.30.2
 cohere==5.6.2
 crashtest==0.4.1
-cryptography==43.0.0
+cryptography==48.0.1
 datasets==3.0.1
 decord==0.6.0
 dill==0.3.8
