@@ -110,7 +110,7 @@ tzdata==2024.2
 urllib3==2.2.3
 uvicorn==0.32.1
 uvloop==0.21.0
-vllm==0.6.3.post1
+vllm==0.23.0
 vllm-flash-attn==2.6.2
 watchfiles==1.0.0
 websockets==14.1
