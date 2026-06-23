@@ -67,7 +67,7 @@ matplotlib-inline==0.1.7
 mdurl==0.1.2
 mistral_common==1.5.1
 mpmath==1.3.0
-msgpack==1.1.0
+msgpack==1.2.1
 msgspec==0.18.6
 multidict==6.1.0
 multiprocess==0.70.16
