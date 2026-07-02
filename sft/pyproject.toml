@@ -19,7 +19,7 @@ dependencies = [
     "setuptools>=75.6.0",
     "tensorboard>=2.18.0",
     "torch>=2.5.1",
-    "transformers>=4.46.3",
+    "transformers>=5.3.0",
     "vllm>=0.6.4.post1",
     "wandb>=0.18.7",
 ]
