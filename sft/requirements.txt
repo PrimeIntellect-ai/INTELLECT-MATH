@@ -171,7 +171,7 @@ tomli==2.2.1
 torch==2.5.1+cu121
 torchvision==0.20.1
 tqdm==4.67.1
-transformers==4.47.1
+transformers==5.5.0
 triton==3.1.0
 typing-extensions==4.12.2
 tzdata==2024.2
