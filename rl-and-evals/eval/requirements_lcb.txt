@@ -163,7 +163,7 @@ urllib3==2.2.1
 uvicorn==0.30.6
 uvloop==0.20.0
 virtualenv==20.26.3
-vllm==0.5.4
+vllm==0.24.0
 vllm-flash-attn==2.6.1
 watchfiles==0.23.0
 websockets==12.0
