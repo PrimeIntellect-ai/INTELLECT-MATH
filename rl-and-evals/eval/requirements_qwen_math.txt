@@ -69,7 +69,7 @@ packaging==24.2
 pandas==2.2.3
 partial-json-parser==0.2.1.1.post4
 Pebble==5.1.0
-pillow==10.4.0
+pillow==12.3.0
 prometheus-fastapi-instrumentator==7.0.0
 prometheus_client==0.21.1
 propcache==0.2.1
