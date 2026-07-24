@@ -128,7 +128,7 @@ psutil==6.1.1
 py-cpuinfo==9.0.0
 py-spy==0.4.0
 pyarrow==18.1.0
-pyasn1==0.6.1
+pyasn1==0.6.4
 pyasn1-modules==0.4.1
 pybind11==2.13.6
 pycodestyle==2.12.1
