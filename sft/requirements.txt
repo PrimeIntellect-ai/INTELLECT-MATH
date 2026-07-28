@@ -144,7 +144,7 @@ python-dotenv==1.0.1
 pytz==2024.2
 pyyaml==6.0.2
 pyzmq==26.2.0
-ray==2.40.0
+ray==2.56.0
 referencing==0.35.1
 regex==2024.11.6
 requests==2.32.3
